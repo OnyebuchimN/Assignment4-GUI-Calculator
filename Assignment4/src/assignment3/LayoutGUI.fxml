@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="348.0" style="-fx-background-color: BLACK;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment3.LayoutGUIController">
+    <stylesheets>
+        <URL value="@layoutgui.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="txt1" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="300.0" style="-fx-background-color: GREY;" />
+      <Button fx:id="btn1" layoutX="23.0" layoutY="63.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="1" />
+      <Button fx:id="btn2" layoutX="80.0" layoutY="63.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="2" />
+      <Button fx:id="btn3" layoutX="131.0" layoutY="63.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="3" />
+      <Button fx:id="plusbtn" layoutX="237.0" layoutY="211.0" mnemonicParsing="false" onAction="#addOp" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: GREY;" text="+" />
+      <Button fx:id="eqbtn" layoutX="237.0" layoutY="273.0" mnemonicParsing="false" onAction="#eqOp" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: GREY;" text="=" />
+      <Button fx:id="btn4" layoutX="22.0" layoutY="121.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="4" />
+      <Button fx:id="btn5" layoutX="80.0" layoutY="121.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="5" />
+      <Button fx:id="btn6" layoutX="131.0" layoutY="121.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="6" />
+      <Button fx:id="btn7" layoutX="23.0" layoutY="189.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="7" />
+      <Button fx:id="btn8" layoutX="80.0" layoutY="189.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="8" />
+      <Button fx:id="btn9" layoutX="131.0" layoutY="189.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="9" />
+      <Button fx:id="btn0" layoutX="80.0" layoutY="251.0" mnemonicParsing="false" onAction="#addNum" prefHeight="44.0" prefWidth="41.0" style="-fx-background-color: GREY;" text="0" />
+      <Button fx:id="negbtn" layoutX="14.0" layoutY="333.0" mnemonicParsing="false" onAction="#negOp" prefHeight="44.0" prefWidth="317.0" style="-fx-background-color: GREY;" text="CLEAR" />
+      <Button fx:id="subbtn" layoutX="237.0" layoutY="165.0" mnemonicParsing="false" onAction="#minOp" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: GREY;" text="-" />
+      <Button fx:id="dividebtn" layoutX="237.0" layoutY="72.0" mnemonicParsing="false" onAction="#diviOp" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: GREY;" text="/" />
+      <Button fx:id="multiplybtn" layoutX="237.0" layoutY="121.0" mnemonicParsing="false" onAction="#multiOp" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: GREY;" text="*" />
+    
+      
+   </children>
+</AnchorPane>
